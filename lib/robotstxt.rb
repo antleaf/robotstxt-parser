@@ -25,7 +25,7 @@ module Robotstxt
   NAME            = 'Robotstxt'
   GEM             = 'robotstxt'
   AUTHORS         = ['Conrad Irwin <conrad@rapportive.com>', 'Simone Rinzivillo <srinzivillo@gmail.com>']
-  VERSION        = '1.0'
+  VERSION        = '1.1'
 
   # Obtains and parses a robotstxt file from the host identified by source,
   # source can either be a URI, a string representing a URI, or a Net::HTTP

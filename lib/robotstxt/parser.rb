@@ -166,7 +166,8 @@ module Robotstxt
         "%25#{code.upcase}"
       end
 
-      URI.unescape(path)
+      URI.encode_www_form_component(path)
+      #URI.unescape(path)
 
     end
 
